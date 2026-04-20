@@ -72,7 +72,7 @@ We benchmarked AgentProbe against the community baseline of raw log inspection a
 
 ### Bundled experiment result
 - traces analyzed: 5
-- average runtime: 8.45 ms on bundled fixtures
+- average runtime: 1.16 ms on bundled fixtures
 - all 6 rules exercised across the fixture pack
 - validation artifact: `docs/experiments.md`
 

@@ -55,7 +55,7 @@ Commands:
 
 ### Bundled benchmark
 - traces analyzed: 5
-- average runtime: 8.45 ms on bundled fixtures
+- average runtime: 1.16 ms on bundled fixtures
 - findings coverage: all 6 rule families triggered at least once across the fixture pack
 - output format: both markdown-like terminal report and JSON artifact supported
 
