@@ -1,0 +1,5 @@
+{"id":"retry-1","timestamp_ms":0,"tool":"search_docs","input":{"query":"failing test"},"output":"timeout","duration_ms":450,"error":"timeout"}
+{"id":"retry-2","timestamp_ms":800,"tool":"search_docs","input":{"query":"failing test"},"output":"timeout","duration_ms":470,"error":"timeout"}
+{"id":"retry-3","timestamp_ms":1400,"tool":"search_docs","input":{"query":"failing test"},"output":"partial results","duration_ms":500}
+{"id":"retry-4","timestamp_ms":7000,"tool":"browser_open","input":{"url":"https://example.com/logs"},"output":"ok","duration_ms":190}
+{"id":"retry-5","timestamp_ms":7100,"tool":"write_patch","input":{"file":"README.md","changes":1},"output":"patched","duration_ms":170}

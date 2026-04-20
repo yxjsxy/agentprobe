@@ -1,0 +1,12 @@
+{
+  "name": "agentprobe",
+  "version": "0.1.0",
+  "private": false,
+  "bin": {
+    "agentprobe": "cli.js"
+  },
+  "scripts": {
+    "smoke": "node cli.js inspect fixtures/retry-storm.jsonl fixtures/manifest.json",
+    "benchmark": "node cli.js benchmark fixtures/clean-run.jsonl fixtures/retry-storm.jsonl fixtures/context-bloat.jsonl fixtures/schema-drift.jsonl fixtures/looping-run.jsonl fixtures/manifest.json"
+  }
+}

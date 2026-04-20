@@ -1,0 +1,10 @@
+{"id":"loop-1","timestamp_ms":0,"tool":"browser_open","input":{"url":"https://example.com/build-log"},"output":"retry later","duration_ms":80}
+{"id":"loop-2","timestamp_ms":15000,"tool":"browser_open","input":{"url":"https://example.com/build-log"},"output":"retry later","duration_ms":82}
+{"id":"loop-3","timestamp_ms":30000,"tool":"browser_open","input":{"url":"https://example.com/build-log"},"output":"retry later","duration_ms":81}
+{"id":"loop-4","timestamp_ms":45000,"tool":"browser_open","input":{"url":"https://example.com/build-log"},"output":"ready","duration_ms":1200}
+{"id":"loop-5","timestamp_ms":47000,"tool":"search_docs","input":{"query":"check status"},"output":"ok","duration_ms":10000}
+{"id":"loop-6","timestamp_ms":48000,"tool":"search_docs","input":{"query":"next step"},"output":"ok","duration_ms":110}
+{"id":"loop-7","timestamp_ms":49000,"tool":"search_docs","input":{"query":"finalize"},"output":"ok","duration_ms":120}
+{"id":"loop-8","timestamp_ms":50000,"tool":"write_patch","input":{"file":"status.md","changes":1},"output":"ok","duration_ms":130}
+{"id":"loop-9","timestamp_ms":51000,"tool":"write_patch","input":{"file":"README.md","changes":1},"output":"ok","duration_ms":150}
+{"id":"loop-10","timestamp_ms":52000,"tool":"search_docs","input":{"query":"summary"},"output":"ok","duration_ms":140}
